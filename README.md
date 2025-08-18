@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UI Components — InputField & DataTable
 
 **Tech**: React, TypeScript, TailwindCSS, Storybook, Vitest.
@@ -32,3 +33,7 @@ Typed, reusable components; Storybook docs & a11y checks; minimal tests for crit
 
 - Vercel (app demo): build = `npm run build`, output = `dist`
 - Chromatic (Storybook): `npx chromatic --project-token=<token>`
+=======
+# ui-components-demo
+React + TypeScript front-end assignment implementing two reusable UI components: InputField and DataTable. Built with TailwindCSS, featuring validation, sorting, selection, responsive design, accessibility, and documented with Storybook.
+>>>>>>> 90b1d0724e19868a4727ee1da04639a617faa1cd
