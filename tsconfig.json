@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
+<<<<<<< Updated upstream
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
@@ -26,4 +27,16 @@
     "**/*.test.ts",
     "**/*.test.tsx"
   ]
+=======
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "storybook", ".storybook", "**/*.stories.tsx"]
+>>>>>>> Stashed changes
 }
